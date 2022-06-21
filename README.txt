@@ -1,1 +1,1 @@
-shell scipt codes onder gnu gpl
+shell scipts
