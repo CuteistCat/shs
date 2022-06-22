@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#This will copy a file appending the date and time to the end of the name
+date_formatted=$(date +%m_%d_%y-%H.%M.%S)
+
+#ensure user ran corectly
+
+echo "remeber to run whith file in name and then folowed by the file to store in"
+
+# the following ifoms you what time it is
+
+echo "The date and time is: " $date_formatted
+
+#name change!
+
+cp –iv $1 $2.$date_formatted
+
+
